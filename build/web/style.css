@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+.imgcontainer{
+    width: auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 75px;
+    margin: 75px;
+    justify-items: center;
+    align-items: center ;
+}
+.hiking{
+    height: 550px;
+    border-radius: 15px;
+}
+.Rform{
+    grid-column: 2 / 2;
+    z-index: 10;
+    width: 100%;
+}
+.Rform h1{
+    font-size: 50px;
+    margin: 40px 0;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    text-align: center;
+    margin: 10px 0;
+}
+ul li .inpfeed{
+    width:70%;
+    padding:  20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: visible;
+
+}
+.inpfeed::placeholder{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+#btn{
+    background-color: #4C934C;
+    border: none;
+    box-shadow: 2px 2px 4px #4C934C;
+    font-size: 20px;
+    margin: 20px 0;
+    color: white;
+}
+.login{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.loginLink{
+    text-decoration: none;
+    color: #46CE85;
+    font-weight: 600;
+}
+
+.header {
+    background: #4C934C;
+    color: white;
+    padding: 5px;
+    font-family: Caveat;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.header input{
+    align-items: center;
+}
+.nav {
+    background: #4C934C;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.nav a:hover {
+    background-color: white;
+    padding: 3px;
+    color: #4C934C;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.feature {
+    width: calc(25% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/*about us desing*/
+
+.introduction {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+}
+
+.introduction h1 {
+    color: #4C934C;
+    font-size: 36px;
+    font-family: 'Gotham Black', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.introduction p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Arial',sans-serif;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.introduction a {
+    color: #4C934C;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+/* Add this CSS to your existing styles */
+
